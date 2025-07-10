@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model in css</title>
+    <style>
+        .one{
+            width: 100px;
+            height: 100px;
+            background: rgb(248,215,2);
+            padding: 10px;
+            border: 20px solid red;
+            
+        }
+        .two{
+            width: 100px;
+            height: 100px;
+            background: rgb(3,186,15);
+            padding: 10px;
+            border:20px solid purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">one</div>
+    <div class="two">two</div>
+</body>
+</html>
