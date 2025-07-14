@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./image/bg-img1.jpg">
+    <title>Document</title>
+</head>
+<body>
+    <div class="regform">
+        <h3>sign up</h3>
+        <form action=""></form>
+           <div class="input">
+              <label for="name">username</label>
+              <input type="text" id="name" name="name"></label>
+            </div>
+            <div class="input">
+                <label for="email">email</label>
+                <input type="email" name="email" id="email"></label>
+            </div> 
+            <div class="input">
+                <label for="password">password</label>
+                <input type="password" name="password" id="password"></label>
+            </div>
+            <div class="radio">
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">male</label>
+                <input type="radio" name="grnder" id="female" value="female">
+                <label for="female">female</label>
+                <div class="btn">
+                    <button type="summit">register</button>
+                </div>
+            </div>
+        </form>
+</body>
+</html>body{
+    background:url("/image/bg-img1.jpg")
+    font-family:arial; 
+}
+
+.regform{
+    width: 500px;
+    margin:250 auto;
+    padding: 10px 20px 30px;
+    background-color: rgb(0,0,0,.5);
+    color: white;
+    font-size:30px;
+    border-radius: 10px;
+}
+
+.regform h3{
+    text-align:center;
+    color: #E29578;
+}
+
+.regform .textlabel{
+    display:block;
+}
+
+.input input{
+    width:100;
+    font-size:1.5em;
+    border:1px solid #006D77;
+    box-shadow: 2px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    box-sizing:content-box;
+    margin:5px 0px 15px;
+}
+
+input:focus{
+    background-color: #83C5BE;
+}
+
+.btn{
+    text-align: center;
+}
+
+buttton{
+    background-color: #83C5BE;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: 1px solid #83C5BE;
+}
